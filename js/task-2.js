@@ -4,7 +4,7 @@ function formatMessage(message, maxLength) {
         return message;
     }
     else {
-        const messageCut = message.slice(0, maxLength + 1);
+        const messageCut = message.slice(0, maxLength);
         return `${messageCut.trim()}...`;
     }
 }
